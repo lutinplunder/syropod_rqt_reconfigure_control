@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="syropod_rqt_reconfigure_control" type="syropod_rqt_reconfigure_control" name="syropod_rqt_reconfigure_control" output="screen" />
+
+<node name="reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure"/>
+
+</launch>
