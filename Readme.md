@@ -1,12 +1,8 @@
----
-
 # Syropod RQT Reconfigure Control
 
 ---
 
 An interface between user input via RQT Reconfigure Graphical User Interface (GUI) and the Syropod High-level Controller (SHC)
-
----
 
 ## Inputs:
 
