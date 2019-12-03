@@ -26,12 +26,22 @@ std_msgs::Int8 posing_mode_msg_;
 
 void dynamicParameterCallback(syropod_rqt_reconfigure_control::DynamicConfig &config, uint32_t level)
 {
-  desired_velocity_msg_.linear.x = config.linear_x;
-  desired_velocity_msg_.linear.y = config.linear_y;
-  desired_velocity_msg_.linear.z = 0; 
-  desired_velocity_msg_.angular.x = 0;
-  desired_velocity_msg_.angular.y = 0;
-  desired_velocity_msg_.angular.z = config.angular_z;
+  if (config.stop == true){
+    desired_velocity_msg_.linear.x = 0;
+    desired_velocity_msg_.linear.y = 0;
+    desired_velocity_msg_.linear.z = 0; 
+    desired_velocity_msg_.angular.x = 0;
+    desired_velocity_msg_.angular.y = 0;
+    desired_velocity_msg_.angular.z = 0; 
+  }
+  if (config.stop == false){
+    desired_velocity_msg_.linear.x = config.linear_x;
+    desired_velocity_msg_.linear.y = config.linear_y;
+    desired_velocity_msg_.linear.z = 0; 
+    desired_velocity_msg_.angular.x = 0;
+    desired_velocity_msg_.angular.y = 0;
+    desired_velocity_msg_.angular.z = config.angular_z;
+  }
   system_state_msg_.data = config.system_state;
   robot_state_msg_.data = config.robot_state;
   gait_selection_msg_.data = config.gait_selection;
