@@ -22,3 +22,6 @@ An interface between user input via RQT Reconfigure Graphical User Interface (GU
 
 * Cruise Control Mode - Select the cruise control mode to be ON/OFF from the drop down menu.
 
+## Authors
+
+Oshada Jayasinghe

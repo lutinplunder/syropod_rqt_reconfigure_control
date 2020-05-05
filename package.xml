@@ -5,28 +5,16 @@
   <version>0.0.0</version>
   <description>The syropod_rqt_reconfigure_control package</description>
 
-  <maintainer email="fletcher.talbot@csiro.au">tal058</maintainer>
+  <maintainer email="shc-support@csiro.au"></maintainer>
 
-  <license>TODO</license>
+  <license>CSIRO Open Source Software Licence Agreement (Ref: LICENSE file)</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>dynamic_reconfigure</build_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>roslib</build_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_depend>syropod_highlevel_controller</build_depend>
-
-  <build_export_depend>dynamic_reconfigure</build_export_depend>
-  <build_export_depend>roscpp</build_export_depend>
-  <build_export_depend>roslib</build_export_depend>
-  <build_export_depend>std_msgs</build_export_depend>
-  <build_export_depend>syropod_highlevel_controller</build_export_depend>
-
-  <exec_depend>dynamic_reconfigure</exec_depend>
-  <exec_depend>roscpp</exec_depend>
-  <exec_depend>roslib</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>syropod_highlevel_controller</exec_depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+  <depend>std_msgs</depend>
+  <depend>syropod_highlevel_controller</depend>
 
 </package>
