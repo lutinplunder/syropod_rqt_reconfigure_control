@@ -4,7 +4,7 @@
 
 An interface between user input via RQT Reconfigure Graphical User Interface (GUI) and the Syropod High-level Controller (SHC)
 
-## Inputs:
+## Inputs
 
 * System State - Controls SHC system state. Select the system state to be Operational/Suspended from the drop down menu.
 
@@ -12,7 +12,7 @@ An interface between user input via RQT Reconfigure Graphical User Interface (GU
 
 * Linear X - Adjust the linear velocity of the hexapod in X direction using the slider from -1 to 1.
 
-* Linear Y - Adjust the linear velocity of the hexapod in Y direction using the slider from -1 to 1. 
+* Linear Y - Adjust the linear velocity of the hexapod in Y direction using the slider from -1 to 1.
 
 * Angular Z - Adjust the rotational velocity of the hexapod around Z axis using the slider from -1 to 1.
 
@@ -22,6 +22,6 @@ An interface between user input via RQT Reconfigure Graphical User Interface (GU
 
 * Cruise Control Mode - Select the cruise control mode to be ON/OFF from the drop down menu.
 
-## Authors
+## Author
 
 Oshada Jayasinghe
