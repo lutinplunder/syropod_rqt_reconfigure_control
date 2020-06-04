@@ -23,7 +23,8 @@ If you haven't looked at the tutorials for using Syropod Highlevel Controller, s
 ### Installation
 
 ```bash
-cd catkin_ws/src
+mkdir -p openshc_ws/src
+cd openshc_ws/src
 git clone https://github.com/csiro-robotics/syropod_rqt_reconfigure_control.git
 cd ..
 catkin build
