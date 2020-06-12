@@ -8,7 +8,7 @@ Note that [syropod_remote](https://github.com/csiro-robotics/syropod_remote) can
 
 ## Getting Started
 
-If you haven't looked at the tutorials for using Syropod Highlevel Controller, see [SHC Tutorials](https://github.com/csiro-robotics/shc_tutorials).
+If you haven't looked at the tutorials for using OpenSHC, see [OpenSHC Tutorials](https://github.com/csiro-robotics/shc_tutorials).
 
 ### Requirements
 
