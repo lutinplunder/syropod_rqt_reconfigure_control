@@ -2,7 +2,7 @@
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-An interface for user input via RQT Reconfigure Graphical User Interface (GUI) to [Syropod Highlevel Controller](https://github.com/csiro-robotics/syropod_highlevel_controller).
+An interface for user input via RQT Reconfigure Graphical User Interface (GUI) to [OpenSHC](https://github.com/csiro-robotics/syropod_highlevel_controller).
 
 Note that [syropod_remote](https://github.com/csiro-robotics/syropod_remote) cannot be running when using syropod_rqt_reconfigure_control.
 
